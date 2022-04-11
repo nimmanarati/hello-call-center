@@ -26,7 +26,7 @@ def handle_call(metadata, call_content):
     flag = True
     flag |= check_if_in_blocklist(metadata)
     
-    // filter 'คุณมีพัศดุติดที่ศุลกากกร กด 9 เพื่อติดต่อเจ้าหน้าที่'
+    # filter 'คุณมีพัศดุติดที่ศุลกากกร กด 9 เพื่อติดต่อเจ้าหน้าที่'
     audio_hash = hash_audio(call_content)
     flag |= check_hash(audio_hash)
     
