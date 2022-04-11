@@ -15,7 +15,7 @@ e.g. function would structure like this
 ```python
 def handle_sms(metadata, sms_content):
     flag = True
-    flag |= check_if_from(metadata, "COMFORTCASS")
+    flag |= check_if_from(metadata, "COMFORTCASH")
     
     flag |= check_if_contain(sms_content, "SEXY บาคาร่า")
     flag |= check_if_contain(sms_content, "EM199.com")
