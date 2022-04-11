@@ -11,7 +11,7 @@ Feel free to add your own.
 ## Single Function Approach
 I would like to start with the simplest version with a single function that take in `metadata`, `sms_content`/`call_content` and return `True` or `False` where `True` means the call/sms will forword to the phone and `False` means the call will log and sent to quarantine for user to inspect themself.  
 
-e.g. function would struction like this
+e.g. function would structure like this
 ```python
 def handle_sms(metadata, sms_content):
     flag = True
